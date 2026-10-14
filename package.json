@@ -1,6 +1,6 @@
 {
   "name": "structured-event-feeds",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read public events from iCalendar feeds and schema.org Event data (Meetup, Eventbrite, university and organization calendars), normalized to an open event record. Library plus MCP server.",
   "license": "MIT",
   "author": "Mihir Kavishwar",
@@ -20,7 +20,7 @@
     "smoke": "tsx scripts/smoke.ts"
   },
   "peerDependencies": {
-    "@modelcontextprotocol/sdk": "^1.32.0",
+    "@modelcontextprotocol/sdk": "^1.20.0",
     "zod": "^3.25 || ^4.0"
   },
   "peerDependenciesMeta": {
