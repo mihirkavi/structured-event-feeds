@@ -24,6 +24,8 @@ Meetup's robots.txt disallows the `keywords`, `source` and `dateRange` query par
 
 ## Use
 
+Requires Node 22.13+ or any bundler that compiles TypeScript. The package ships TypeScript source.
+
 ```bash
 npm install github:mihirkavi/structured-event-feeds
 ```
@@ -44,11 +46,27 @@ const stanford = await feeds.read('https://events.stanford.edu/calendar.ics', { 
 
 `npm run mcp` starts a stdio server with `read_event_feed`, `search_meetup` and `search_eventbrite`.
 
+Claude Code example: `claude mcp add structured-event-feeds -- npx tsx /path/to/structured-event-feeds/src/mcp.ts`
+
 ## What it does not do
 
 - No sign-in, RSVP, ticket purchase or form submission.
 - No RSS/Atom yet. RSS items rarely carry machine-readable event times.
 - Eventbrite browse pages list dates only. Read the event page itself for the exact start time.
+
+## Project structure
+
+```
+src/
+├── index.ts    # StructuredFeedClient, source helpers, robots.txt handling
+├── ics.ts      # iCalendar parsing and recurrence expansion
+├── jsonld.ts   # schema.org Event extraction from HTML
+├── time.ts     # timezone conversion helpers
+├── types.ts    # open event record types
+└── mcp.ts      # stdio MCP server
+test/           # unit tests (node:test)
+scripts/smoke.ts  # live smoke check
+```
 
 ## Development
 
