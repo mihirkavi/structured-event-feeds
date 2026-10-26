@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.png">
-    <img alt="structured-event-feeds: the event web, one reader. Read iCalendar feeds and schema.org events from Meetup, Eventbrite and any organization calendar, in one clean format." src=".github/assets/banner-light.png" width="100%">
+    <img alt="structured-event-feeds: the event web, one reader. An ICS feed snippet and a schema.org JSON-LD snippet both flow into one open event record shown as a month grid. Read iCalendar feeds and schema.org events from Meetup, Eventbrite and any organization calendar, in one clean format." src=".github/assets/banner-light.png" width="100%">
   </picture>
 </p>
 
@@ -19,10 +19,10 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-111111?style=flat-square"></a>
-  <img alt="TypeScript and MCP" src="https://img.shields.io/badge/TypeScript%20%C2%B7%20MCP-111111?style=flat-square">
-  <img alt="Status: v0.1" src="https://img.shields.io/badge/status-v0.1-6b6b6b?style=flat-square">
-  <a href="https://github.com/mihirkavi/structured-event-feeds/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/mihirkavi/structured-event-feeds/ci.yml?branch=main&style=flat-square&color=111111&label=CI"></a>
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-0d2b2e?style=flat-square"></a>
+  <img alt="TypeScript and MCP" src="https://img.shields.io/badge/TypeScript%20%C2%B7%20MCP-0f7f78?style=flat-square">
+  <img alt="Status: v0.1" src="https://img.shields.io/badge/status-v0.1-e8553e?style=flat-square">
+  <a href="https://github.com/mihirkavi/structured-event-feeds/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/mihirkavi/structured-event-feeds/ci.yml?branch=main&style=flat-square&color=0d2b2e&label=CI"></a>
 </p>
 
 <p align="center">
